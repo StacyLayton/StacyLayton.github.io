@@ -5,14 +5,30 @@
 	<link href="style-sheet.css" rel="stylesheet" type="text/css">
 </head>
 
+<!---TODO: Here's a problem. Mrs. White responds differently to boys/girls/nonbs
+	and she also uses the name the reader entered. How do we quickly determine the
+	right dialogue and display it accurately?--->
 <body class="scrollbar">
 	<div class="container">
 		<img src="backgrounds/musicRoomBackground3.png" alt="Music Room" style="width:100%;">
 		<div class="text-block">
-			<h3>Pick your instrument!</h3>
+			<h3>GIRLSNAME, what a lovely name!<br>
+				Nice to meet you, BOYSNAME.<br>
+				Okay, NBNAME, ummmm...<br>
+				Now before we sign you up for any classes,<br>
+				please take a moment to think about the instrument<br>
+				[you see yourself playing and enjoying the most.]<br>
+				[you are willing to learn and practice with on a daily basis.]<br>
+				[you are willing to stick with for the next {4} years.]
+			</h3>
 		</div>
 	</div>
 
+<!---TODO: This looks great! But the reader needs to be able to click
+	on each instrument to hear it play a sound. These sounds can over-lap
+	each other, without interuption. They also need a way to select
+	the instrument they want to play, and move to the next page, 
+	but it can't be by clicking the instrument since that plays a sound... ut oh...--->
 	<div class="scrolling-wrapper">
 		<img src="pics/Instruments/TN_accordion.jpg" class="input">
 		<img src="pics/Instruments/TN_acoustic_guitar.jpg" class="input">

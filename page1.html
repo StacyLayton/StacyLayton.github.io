@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Project: Create an Interactive Story</title>
+	<link href="style-sheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="scrollbar">
+	<div class="container">
+		<img src="backgrounds/musicRoomBackground3.png" alt="Music Room" style="width:100%;">
+		<div class="text-block">
+			<h3>Hello! My name is Mrs. White, I am the band and orchestra teacher.<br>
+				Please give your name and information on the sign up sheet,<br>
+				and I'll be right with you!
+			</h3>
+		</div>
+	</div>
+
+<!---TODO: This is not the desired look or function!
+	Please create a way for the reader to type in a name,
+	click a button to select "boy, girl or non-binary/other",
+	and click a button to select the Grade (9, 10, 11, or 12).
+	These values need to be saved and available throughout the story.--->
+	<div class="scrolling-wrapper" align="center">
+			NAME: <textarea id="studentName" class="input"> </textarea>
+			SEX: <button type="button" id="genderBoy" class="input" style="background-color: #008CBA;">MALE</button>
+			<button type="button" id="genderGirl" class="input" style="background-color: #FF69B4;">FEMALE</button>
+			<button type="button" id="genderOther" class="input" style="background-color: #008000;">OTHER</button>
+			GRADE: <button type="button" id="freshman" class="input">9th</button>
+			<button type="button" id="soph" class="input">10th</button>
+			<button type="button" id="junior" class="input">11th</button>
+			<button type="button" id="senior" class="input">12th</button>
+	</div>
+
+</body>
+</html>

@@ -20,7 +20,7 @@ class App extends Component {
           </div>
 
           <div className="scrolling-wrapper" onClick={this.playInstrument}>
-            <img src="pics/Instruments/TN_accordion.jpg" data-sound="" 
+            <img src="pics/Instruments/TN_accordion.jpg" 
             alt="accordion" className="input" />
             <img src="pics/Instruments/TN_acoustic_guitar.jpg" data-sound=" " 
             alt="acoustic_guitar" className="input" />
@@ -38,23 +38,23 @@ class App extends Component {
             alt="french_horn" className="input" />
             <img src="pics/Instruments/TN_harp.jpg" 
             alt="harp" className="input" />
-            <img src="pics/Instruments/TN_keyboard.jpg" 
+            <img src="pics/Instruments/TN_keyboard.jpg" data-sound="music/keyboard.wav"
             alt="keyboard" className="input" />
-            <img src="pics/Instruments/TN_red-color-electric-guitar.jpg" 
+            <img src="pics/Instruments/TN_red-color-electric-guitar.jpg" data-sound="music/electric-guitar1.wav"
             alt="electric-guitar" className="input" />
             <img src="pics/Instruments/TN_saxophone.jpg" 
             alt="saxophone" className="input" />
-            <img src="pics/Instruments/TN_trombone.jpg" 
+            <img src="pics/Instruments/TN_trombone.jpg" data-sound="music/trombone2.mp3"
             alt="trombone" className="input" />
             <img src="pics/Instruments/TN_trumpet.jpg" 
             alt="trumpet" className="input" />
-            <img src="pics/Instruments/TN_tuba.jpg" 
+            <img src="pics/Instruments/TN_tuba.jpg" data-sound="music/tuba.mp3"
             alt="tuba" className="input" />
-            <img src="pics/Instruments/TN_viola.jpg" 
+            <img src="pics/Instruments/TN_viola.jpg" data-sound="music/viola.mp3"
             alt="viola" className="input" />
             <img src="pics/Instruments/TN_violin.jpg" 
             alt="violin" className="input" />
-            <img src="pics/Instruments/TN_xylophone.jpg" 
+            <img src="pics/Instruments/TN_xylophone.jpg" data-sound="music/xylophone1.wav"
             alt="xylophone" className="input" />
           </div>
       </div>

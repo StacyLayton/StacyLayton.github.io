@@ -3,14 +3,92 @@
 <head>
 	<title>Simple Project: Create an Interactive Story</title>
 	<style type="text/css" style="display: none !important;">
-		background: url(/backgrounds/musicRoomBackground1.jpg) top left no-repeat;
-		padding: 0px;	
+		html, body {
+			margin: 0;
+			padding: 0;
+			overflow-y: hidden;
+		}
+		.instrument1 {
+			position: relative;
+			top: 0px;
+			left: 80px;
+			z-index: 2;
+		}
+		.scrollbar {
+			background: transparent;
+		}
+		::-webkit-scrollbar
+		{
+			background-color: #000000;
+		}
+		::-webkit-scrollbar-track-piece
+		{
+		    background-color: #000000;
+		}
+		.container {
+		  position: relative;
+		  top: 0px;
+		  left:0px;
+		  font-family: Arial;
+		}
+		.textbox1 {
+			position: relative;
+			display: inline-block;
+			z-index: 3;
+		}
+		.text-block {
+		  position: absolute;
+		  bottom: 20px;
+		  right: 20px;
+		  background-color: black;
+		  color: white;
+		  padding-left: 20px;
+		  padding-right: 20px;
+		}
+		.textbox2 {
+			position: relative;
+			top: 650px;
+			left: 200px;
+			z-index: 3;
+		}
+		.scrolling-wrapper {
+		  overflow-x: auto;
+		  overflow-y: hidden;
+		  white-space: nowrap;
+		  	.card {
+		    	display: inline-block;
+		    }	
+		}
 	</style>
 </head>
 
-<body>
+<body class="scrollbar">
+	<div class="container">
+		<img src="backgrounds/musicRoomBackground3.png" alt="Music Room" style="width:100%;">
+		<div class="text-block">
+			<h3>Pick your instrument!</h3>
+		</div>
+	</div>
 
-<p align="center">Music Room: My Story</p>
+	<div class="scrolling-wrapper">
+		<img src="pics/Instruments/TN_accordion.jpg" class="card">
+		<img src="pics/Instruments/TN_acoustic_guitar.jpg" class="card">
+		<img src="pics/Instruments/TN_bagpipe.jpg" class="card">
+		<img src="pics/Instruments/TN_cello.jpg" class="card">
+		<img src="pics/Instruments/TN_clarinet.jpg" class="card">
+		<img src="pics/Instruments/TN_drum.jpg" class="card">
+		<img src="pics/Instruments/TN_french_horn.jpg" class="card">
+		<img src="pics/Instruments/TN_harp.jpg" class="card">
+		<img src="pics/Instruments/TN_keyboard.jpg" class="card">
+		<img src="pics/Instruments/TN_red-color-electric-guitar.jpg" class="card">
+		<img src="pics/Instruments/TN_saxophone.jpg" class="card">
+		<img src="pics/Instruments/TN_trombone.jpg" class="card">
+		<img src="pics/Instruments/TN_trumpet.jpg" class="card">
+		<img src="pics/Instruments/TN_tuba.jpg" class="card">
+		<img src="pics/Instruments/TN_viola.jpg" class="card">
+		<img src="pics/Instruments/TN_violin.jpg" class="card">
+		<img src="pics/Instruments/TN_xylophone.jpg" class="card">
+	</div>
 
 </body>
 </html>
